@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 5;
+    background-image:url(image/photo3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    background-color: aqua;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+
+
+}
+
+nav ul li a {
+    color: rgb(204, 24, 24);
+    text-decoration: none;
+    display: flex;
+}
+
+#home, #profile, #education, #work, #gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(192, 7, 209);
+}
