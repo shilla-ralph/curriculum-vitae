@@ -2,13 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 10;
     padding: 5;
-    background-image:url(image/photo3.jpg);
+    background-image:rgb(92, 92, 194) (76, 76, 214);
     background-position: center;
     background-size: cover;
+    background-color: rgb(227, 192, 218);
+
 }
 
 nav {
-    background-color: aqua;
     color: #ffffff;
     padding: 10px 0;
 }
@@ -17,6 +18,7 @@ nav ul {
     list-style: none;
     padding: 0;
     text-align: center;
+    text-decoration: none;
 }
 
 nav ul li {
@@ -24,6 +26,7 @@ nav ul li {
     margin: 0 15px;
     text-decoration: none;
     color: #ffffff;
+    
 
 
 }
@@ -41,4 +44,9 @@ nav ul li a {
 
 h1 {
     color: rgb(192, 7, 209);
+}
+
+.card.card-body p{
+    font-family: poppins, sans-serif;
+    color: aliceblue;
 }
